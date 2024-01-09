@@ -1,10 +1,10 @@
-# RNAseq_analysis_Cauris
+# For RNA-seq analysis
 
 RNAseq analysis pipeline for analysis of Illumina short-read paired-end sequencing data from *Candida auris* modified from **Jenull mBio (2022)** which was established by Michael Tscherner at https://github.com/kakulab/RNAseq_analysis_Cauris. This script is used in the Kuchler lab (http://cdl.univie.ac.at/) at Max Perutz Labs Vienna ([https://www.mfpl.ac.at/de.html](https://www.maxperutzlabs.ac.at/)).
 
 *C. auris* genome sequence and annotation file (obtained from Candida Genome Database) are provided. For the current version, see CGD.
 
-# Tools required for analysis:
+## Tools required for analysis:
 
 samtools (http://www.htslib.org/)
 
@@ -22,7 +22,7 @@ HTSeq (https://htseq.readthedocs.io/en/)
 
 All the above-mentioned tools have to be included in your PATH environment.
 
-# Usage:
+## Usage:
 
 Clone the repository by typing "git clone https://github.com/kakulab/CSP2024.git" and copy the raw data into the RNAseq_analysis directory.
 
@@ -33,3 +33,6 @@ Change the adapter sequence for read trimming in the `analysis_script.sh` file i
 Change into the required_files directory and run the analysis script (by typing: `bash analysis_script.sh`).
 
 After the pipeline has finished, change into the diff_expr_analysis directory and use the `edgeR_analysis.R` script as a basis for differential expression analysis in R.
+
+# For data integration in R
+We utilized AnnotationForge to generate a GO database of *C. albicans* in a format compatible with BioConductor. Subsequently, we utilized the data available at http://www.candidagenome.org/download/homology/ to map gene IDs between *C. albicans* and *C. auris*. All functional analyses were performed using *C. albicans* GIDs.
