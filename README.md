@@ -1,6 +1,6 @@
 # For RNA-seq analysis
 
-RNAseq analysis pipeline for analysis of Illumina short-read paired-end sequencing data from *Candida auris* modified from **Jenull mBio (2022)** which was established by Michael Tscherner at https://github.com/kakulab/RNAseq_analysis_Cauris. This script is used in the Kuchler lab (http://cdl.univie.ac.at/) at Max Perutz Labs Vienna ([https://www.mfpl.ac.at/de.html](https://www.maxperutzlabs.ac.at/)).
+RNAseq analysis pipeline for analysis of Illumina short-read paired-end sequencing data from *Candida auris* modified from **Jenull mBio (2022)** which was established by [Michael Tscherner](https://github.com/kakulab/RNAseq_analysis_Cauris). This script is used in the Kuchler lab (http://cdl.univie.ac.at/) at Max Perutz Labs Vienna ([https://www.mfpl.ac.at/de.html](https://www.maxperutzlabs.ac.at/)).
 
 *C. auris* genome sequence and annotation file (obtained from Candida Genome Database) are provided. For the current version, see CGD.
 
