@@ -36,4 +36,4 @@ After the pipeline has finished, change into the diff_expr_analysis directory an
 
 # For data integration in R
 We utilized AnnotationForge to generate a GO database of *C. albicans* in a format compatible with BioConductor. Subsequently, we utilized the data available at http://www.candidagenome.org/download/homology/ to map gene IDs between *C. albicans* and *C. auris*. All functional analyses were performed using *C. albicans* GIDs. 
-Please find example script for AnnotationForge in the file: to_generate_C.albicansOrgDB.R
+Please find example script for AnnotationForge in the file: `to_generate_C.albicansOrgDB.R`
